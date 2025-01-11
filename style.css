@@ -19,6 +19,9 @@ body{
 .primary-btn:hover{
     background-color: red;
 }
+.p-bg-color{
+    background-color: #BAEEE1;
+}
 
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
@@ -311,11 +314,19 @@ input[type=number] {
 .taka-sec h2 {
 	height: 128px;
 	width: 240px;
-	background-color: white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	border-radius: 10px;
+	cursor: pointer;
+    transition: .4s;
+}
+.bg-white{
+    background-color: white;
+}
+.taka-sec h2:hover{
+    background-color: black;
+    color: white;
 }
 .input-field {
 	width: 100%;
