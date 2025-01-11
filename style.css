@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(238, 238, 241);
+}
 .primary-btn {
 	background-color: #1D4A35;
 	padding: 15px 20px;
@@ -149,7 +152,7 @@
 
 /* vision area start */
 .vision-area {
-	padding-top: 60px;
+	padding: 60px 0;
 }
 .vision-item {
 	margin: 0 auto;
@@ -207,3 +210,84 @@
     background-color: black;
 }
 /* vision area end */
+/* bonus area start */
+.bonus-area {
+	width: 1280px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 2px solid #d3bdb8;
+	border-radius: 10px;
+    background-color: white;
+}
+.bonus-area p {
+	padding-top: 25px;
+	color: gray;
+    background-image: url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+}
+.bonus-area h4 {
+	font-size: 20px;
+	padding-top: 10px;
+}
+.bonus-area span {
+	color: grey;
+}
+/* bonus area end */
+
+/* recent area start */
+.recent-area {
+	padding: 60px 0;
+}
+.recent-area {
+	margin: 0 auto;
+	width: 1280px;
+}
+.recent-area h2 {
+	font-size: 40px;
+	margin-bottom: 15px;
+}
+.recent-area p {
+	color: #4e4747;
+	margin-bottom: 15px;
+}
+.recent-card {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	background-color: white;
+	border-radius: 20px;
+	padding: 30px;
+	margin-bottom: 20px;
+}
+.card-img img {
+	border-radius: 15px;
+}
+.card-details img {
+	padding: 10px 0;
+}
+.card-details div {
+	padding: 10px 0;
+}
+.card-details div time {
+	padding-left: 7px;
+}
+/* recent area end */
+
+/* donate area start */
+.donate-area {
+	padding: 60px 0;
+}
+.donate-area {
+	margin: 0 auto;
+	width: 1280px;
+}
+.donate-area h2 {
+	font-size: 40px;
+	margin-bottom: 15px;
+}
+.donate-area p {
+	color: #4e4747;
+	margin-bottom: 15px;
+}
+/* donate area end */
