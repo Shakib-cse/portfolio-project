@@ -11,6 +11,10 @@
 	color: white;
 	font-size: 18px;
     cursor: pointer;
+    transition: .4s;
+}
+.primary-btn:hover{
+    background-color: red;
 }
 /* google font area start */
 .fira-sans-thin {
@@ -142,3 +146,64 @@
     margin-bottom: 20px;
 }
 /* hero area end */
+
+/* vision area start */
+.vision-area {
+	padding-top: 60px;
+}
+.vision-item {
+	margin: 0 auto;
+	width: 1280px;
+}
+.vision-item h2 {
+	font-size: 40px;
+	margin-bottom: 15px;
+}
+.vision-item p {
+	color: #4e4747;
+	margin-bottom: 15px;
+}
+.card-item {
+	border-radius: 10px;
+	padding: 20px;
+}
+.vision-card {
+	display: grid;
+	align-items: center;
+	gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.card-item h5 {
+	font-size: 20px;
+	margin: 15px 0;
+}
+.card-btn {
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+    cursor: pointer;
+}
+.blue{
+    background-color: blue;
+    transition: .4s;
+}
+.blue:hover{
+    background-color: black;
+}
+.orange{
+    background-color: orange;
+    transition: .4s;
+}
+.orange:hover{
+    background-color: black;
+}
+.green{
+    background-color: green;
+    transition: .4s;
+}
+.green:hover{
+    background-color: black;
+}
+/* vision area end */
